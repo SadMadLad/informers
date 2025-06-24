@@ -265,7 +265,8 @@ module Informers
       "NllbTokenizer" => NllbTokenizer,
       "M2M100Tokenizer" => M2M100Tokenizer,
       "SpeechT5Tokenizer" => SpeechT5Tokenizer,
-      "PreTrainedTokenizer" => PreTrainedTokenizer
+      "PreTrainedTokenizer" => PreTrainedTokenizer,
+      "Qwen2Tokenizer" => Qwen2Tokenizer
     }
 
     def self.from_pretrained(
