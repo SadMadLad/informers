@@ -166,6 +166,9 @@ module Informers
   class BartTokenizer < PreTrainedTokenizer
   end
 
+  class Qwen2Tokenizer < PreTrainedTokenizer
+  end
+
   class RobertaTokenizer < PreTrainedTokenizer
   end
 
