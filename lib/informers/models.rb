@@ -1220,6 +1220,9 @@ module Informers
   class ClapModel < ClapPreTrainedModel
   end
 
+  class Qwen2Model < PreTrainedModel
+  end
+
   MODEL_MAPPING_NAMES_ENCODER_ONLY = {
     "bert" => ["BertModel", BertModel],
     "modernbert" => ["ModernBertModel", ModernBertModel],
@@ -1236,7 +1239,8 @@ module Informers
     "detr" => ["DetrModel", DetrModel],
     "vit" => ["ViTModel", ViTModel],
     "owlvit" => ["OwlViTModel", OwlViTModel],
-    "donut-swin" => ["DonutSwinModel", DonutSwinModel]
+    "donut-swin" => ["DonutSwinModel", DonutSwinModel],
+    "qwen3" => ["Qwen2Model", Qwen2Model]
   }
 
   MODEL_MAPPING_NAMES_ENCODER_DECODER = {
